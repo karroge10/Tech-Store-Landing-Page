@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+    <header id="header">
+        <img src="https://i.ibb.co/xjkprp3/logo.png" alt="the tech company" id="header-img">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#howitworks" class="nav-link">How It Works</a>
+            <a href="#prices" class="nav-link">Prices</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Fast and reliable computer hardware</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <label for"email" id="email-label">
+                <input type="email" id="email" name="email" placeholder="Enter your email adress" required>
+            </label>
+            <input class="btn" id="submit" type="submit" value="Get Started Now"></input>
+        </form>
+    </section>
+
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <h2>Premium Technology</h2>
+                <p>Our hardware uses the most up to date and advanced technology.</p>
+            </div>
+            <div class="grid">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your hardware as soon as we have it available. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div class="grid">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the performance.</p>
+            </div>
+        </section>
+        <section id="howitworks">
+            <iframe id="video" height="400"  src="https://www.youtube.com/embed/RTQs4cB9g1U" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="prices">
+            <div class="product" id="lowend">
+                <div class="level">Low End Computer</div>
+                <h2>500$</h2>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                </ol>
+                <button class="select">SELECT</button>
+            </div>
+            <div class="product" id="midend">
+                <div class="level">Medium End Computer</div>
+                <h2>1000$</h2>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                </ol>
+                <button class="select">SELECT</button>
+            </div>
+            <div class="product">
+                <div class="level" id="highend">High End Computer</div>
+                <h2>2000$</h2>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                </ol>
+                <button class="select">SELECT</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
