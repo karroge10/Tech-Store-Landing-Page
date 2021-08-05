@@ -22,7 +22,7 @@ I am very opened to suggestions and learning about new techniques that can help 
 
 Have any recommendations or interested in contacting me? Send me a message! 
 
-My email is karroge10@gmail.com.
+My email is egorkabantsov@gmail.com.
 
 [My personal website](https://egorkabantsov.netlify.app/)
 
